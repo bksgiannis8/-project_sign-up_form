@@ -1,7 +1,6 @@
-body {
-    
-    /*height: 100%;*/
-    margin: 0 10% 0 10%;
+html, body {
+    height: 100%;
+    margin: 0 7% 0 7%;
     /*width: 80;*/
     background-color: black;
     
@@ -12,13 +11,28 @@ body {
 header {
     display: flex;
     box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    background-image: url("images/halie-west-bTzpau9mKT4-unsplash.jpg");
 }
 
 
 
 .left-side {
     position: relative;
-    width: 50%;
+    width: 43%;
+}
+
+.left-side p {
+    font-size: medium;
+    color: white;
+    justify-content: end;
+}
+
+.odin p {
+    color: white;
+    font-size: 70px;
 }
 
 img {
@@ -44,15 +58,29 @@ odin img {
 }
 
 .right-up {
-    height: 33%;
+    height: 31%;
 }
 
 .right-mid {
-    height: 34%;
+    height: 33%;
     background-color: white;
 }
 
 .right-down {
-    height: 33%;
+    height: 31%;
     background-color: 	#f4f4f4;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #596D48;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.right-down p {
+    font-size: medium;
 }
