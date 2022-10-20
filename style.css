@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    width: 60%;
+    height: fit-content;
+}
+
+
+
+.left-side {
+    position: relative;
+    width: 40%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.forest {
+    position: relative;
+}
+
+.odin {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: transparent;
+}
+
+odin img {
+    max-height: 90%;
+}
+
+
+.right-side {
+    width: 70%
+}
