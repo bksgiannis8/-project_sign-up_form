@@ -14,7 +14,7 @@ header {
     margin-top: 0;
     margin-bottom: 0;
     height: 100%;
-    background-image: url("images/halie-west-bTzpau9mKT4-unsplash.jpg");
+    background-image: url("images/teemu-paananen-OOE4xAnBhKo-unsplash.jpg");
 }
 
 
@@ -30,9 +30,24 @@ header {
     justify-content: end;
 }
 
-.odin p {
+.odin {
+    margin-top: 35%;
     color: white;
     font-size: 70px;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin p {
+    font-size: 100px;
+    opacity: 100%;
+    font-family: 'Norse', sans-serif;
+    font-weight: bold;           
 }
 
 img {
@@ -41,17 +56,6 @@ img {
 }
 
 
-
-.odin {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    background-color: transparent;
-}
-
-odin img {
-    max-height: 90%;
-}
 
 .right-side {
     background-color: 	#f4f4f4;
