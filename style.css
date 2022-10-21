@@ -84,7 +84,7 @@ img {
 
 
 .right-mid {
-    height: 33%;
+    height: 35%;
     background-color: white;
 }
 
@@ -132,7 +132,7 @@ label {
 
 
 .right-down {
-    height: 31%;
+    height: 29%;
     background-color: 	#f4f4f4;
 }
 
@@ -157,4 +157,8 @@ button {
 a {
     text-decoration: none;
     color: green;
+}
+
+.error {
+    border-color: red;
 }
