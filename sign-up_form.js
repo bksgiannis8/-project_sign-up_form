@@ -4,9 +4,13 @@ const errorText= document.getElementById("error_message")
 
 
 let messages=[];
+if (password.value==passwordConfirm.value ) {
+    password.className="correct";
+    passwordConfirm.className="correct";
+}
 
 password.addEventListener("focus", function() {
-    if (password.value==passwordConfirm.value) {
+    if (password.value==passwordConfirm.value ) {
         password.className="correct";
         passwordConfirm.className="correct";
         messages=[]
