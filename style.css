@@ -162,3 +162,8 @@ a {
 .error {
     border-color: red;
 }
+
+#error_message {
+    color: red;
+    font-size: medium;
+}
