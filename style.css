@@ -74,10 +74,11 @@ img {
     font-weight: bold;
     font-size: 25px;
     align-items: center;
+    align-content: flex-end;
 }
 
 .right-up p {
-    width: 80%;
+    width: 90%;   
 }
 
 
@@ -115,8 +116,19 @@ input {
   height: 25px;
   width: 250px;
   margin-right: 10px;
+  border-radius: 5px;
+  border-color: #E5E7EB;
+  border-width: initial;
+  margin: 6px;
 }
 
+input:focus {
+    border-color: #00ffff;
+}
+
+label {
+    font-size: 10px;
+}
 
 
 .right-down {
