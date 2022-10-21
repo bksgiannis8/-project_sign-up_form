@@ -3,25 +3,6 @@ const passwordConfirm = document.getElementById("confirm_password")
 const errorText= document.getElementById("error_message")
 
 
-/*let messages = [];
-if (password.value != passwordConfirm.value) {
-    messages.push('Passwords do not match')
-    } 
-    
-if (password.value =="" || passwordConfirm.value == "") {
-    messages.push('Passwords do not match')
-    }
-
-if (password.value === passwordConfirm.value) {
-    messages = []
-}
-
-if(messages.length > 0) {
-    errorText.innerText = messages.join(', ')
-} */
-
-
-
 let messages=[];
 
 password.addEventListener("focus", function() {
@@ -43,8 +24,6 @@ password.addEventListener("focus", function() {
     
     if(messages.length > 0) {
         errorText.innerText = messages.join(', ')
-    } else if (messages.length=0) {
-        errorText.innerHTML = '';
     } 
 })
 
@@ -69,10 +48,7 @@ passwordConfirm.addEventListener("focus", function() {
     
     if(messages.length > 0) {
         errorText.innerText = messages.join(', ')
-    } else if (messages.length=0) {
-        errorText.innerHTML = ''
-    }
-    
+    } 
 })
 
 
